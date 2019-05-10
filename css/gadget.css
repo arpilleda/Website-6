@@ -1,0 +1,177 @@
+body {
+	background-color: white;
+	text-align: center;
+}
+
+.menu {
+	height: 8vh;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 15px;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+.logo {
+	float: center;
+	height: 80px;
+	width: 240px;
+	margin-left: 20px;
+	text-align: center;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+li {
+	border: 2px orange solid;
+	color: Blue;
+	padding: 20px;
+	font-size: 20px;
+}
+
+li:hover {
+	background-color: #F7CE3E;
+	color: gray;
+}
+
+li {
+	list-style: none;
+	padding: 10px;
+	background: #1F2833;
+	border: 5px black solid;
+	color: white;
+	text-align: center;
+	font-family: impact;
+	border: 6px;
+}
+
+.gadget1 {
+	height: 60vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 20px;
+}
+
+.a {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic1 {
+	height: 60vh;
+	background-image: url(../images/wha.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.te {
+	color: black;
+	text-align: center;
+	margin-top: 20vh;
+}
+
+.gadget2 {
+	height: 60vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 5px;
+}
+
+.b {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic2 {
+	height: 60vh;
+	background-image: url(../images/good.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.ti {
+	color: black;
+	text-align: center;
+	margin-top: 20vh;
+}
+
+.gadget3 {
+	height: 60vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 5px;
+}
+
+.c {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic3 {
+	height: 60vh;
+	background-image: url(../images/ps.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.to {
+	color: black;
+	text-align: center;
+	margin-top: 20vh;
+}
+
+.gadget4 {
+	height: 60vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 5px;
+}
+
+.d {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic4 {
+	height: 60vh;
+	background-image: url(../images/apple.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tu {
+	color: black;
+	text-align: center;
+	margin-top: 20vh;
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer {
+	padding: 5px;
+	height: 5vh;
+	margin-top: 5px;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
